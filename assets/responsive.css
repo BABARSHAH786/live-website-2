@@ -1,0 +1,151 @@
+@media (min-width: 550px) {
+    header nav{
+        background:#03792a;
+        height:200px;
+        width:100%;
+        flex-basis:92%;
+
+    }
+    .footer-content{
+      width: 35%;
+  }
+    header nav ul{
+        margin-right: 220px;
+    }
+    header nav ul li{
+        display:inline-block;
+        line-height: 15px;
+        margin: 0 5px;
+    
+        }
+    header nav ul li a{
+        color: rgb(255, 255, 255);
+        font-size:16px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;    }
+        img{
+            max-width: 100%;
+            max-height: 350px;
+
+        }
+    
+      
+      .topnav .icon {
+        display: none;
+      }
+      footer{
+        height:800px;
+
+
+      }
+      .container{
+        display: center;
+      }
+      
+      @media screen and (max-width: 600px) {
+        
+        footer{
+            height:800px;
+          }
+          .container{
+            display: center;
+          }
+      }
+      
+      @media screen and (max-width: 600px) {
+        header nav{
+            background:#03792a;
+            height:600px;
+            width:100%;
+        }
+        .topnav.responsive {position: relative;}
+        .topnav.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .footer-content{
+          width: 45%;
+      }
+        .topnav.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+      
+      img{
+        max-width: 100%;
+        max-height: 350px;
+
+
+    }
+    .footer-content{
+        width: 10%;
+    }
+    }
+
+
+
+
+@media (min-width: 800px) {
+    header nav{
+        background:#03792a;
+        height: 100px;
+        width:100%;
+    }
+    .footer-content{
+      width: 60%;
+  }
+   img{
+        max-width: 100%;
+        max-height: 450px;
+
+        }
+    footer{
+        height:320px;
+        width:100%;
+    
+    
+        }
+    .container{
+        display: flex;
+        flex-direction: left;
+        }
+        .footer-content{
+            width: 25%;
+        }
+}
+@media (min-width: 1030px) {
+    header nav{
+        background:#03792a;
+        height: 40px;
+        width:100%;
+    }
+    .footer-content{
+      width: 70%;
+  }
+  .container{
+    width: 1140px;
+    margin: right;
+    display: flex;
+    justify-content: left;
+}
+   img{
+        max-width: 100%;
+        max-height: 450px;
+
+        }
+    footer{
+            height:250px;
+            width:100%;
+    
+    
+        }
+    .container{
+            display: flex;
+        }
+}
+}
